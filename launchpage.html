@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <!-- document metadata -->
+    <meta charset="UTF-8">
+
+    <!-- site metadata -->
+    <title>Launch</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  </head>
+
+  <body>
+    <div id="container">
+
+      <div id="searchbox">
+        <!-- klaz@internet ~ $ search -->
+        <h3><span class="green">~</span><span class="blue"> search</span></h3>
+        <!-- search -->
+        <input type="text" id="search" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="autofocus" spellcheck="false" placeholder="" onkeypress="searchKeyPress(event)"></input>
+      </div> <!-- end searchbox -->
+
+      <div id="links">
+        <div class="topbox">
+          <!-- ~/general -->
+          <button class="button" id="general_btn"><h3>~/<span class="green">general</span></h3></button>
+            <div class="box" id="general_box">
+              <a href="https://mail.google.com/">gmail</a>
+              <a href="https://calendar.google.com/">calendar</a>
+              <a href="https://www.youtube.com/feed/subscriptions">youtube</a>
+              <a href="https://www.reddit.com/">reddit</a>
+              <a href="https://www.messenger.com">messenger</a>
+            </div>
+        </div>
+
+        <div class="topbox">
+          <!-- ~/school -->
+          <button class="button" id="school_btn"><h3>~/<span class="green">school</span></h3></button>
+            <div class="box" id="school_box">
+              <a href="http://is.stuba.sk/?lang=sk">ais</a>
+              <a href="http://yonban.fiit.stuba.sk">yonban</a>
+              <a href="https://nautilusds.slack.com/">slack</a>
+              <a href="https://app.scrumdesk.com/#/projects/18620/work/">scrumdesk</a>
+              <a href="https://github.com/FloofyReal/TP-DeepSeach">tp-github</a>
+            </div>
+        </div>
+
+        <div class="topbox">
+          <!-- ~/work -->
+          <button class="button" id="reddit_btn"><h3>~/<span class="green">work</span></h3></button>
+            <div class="box" id="reddit_box">
+
+              <a href="https://db-git.vnet.sk/db/">gitlab</a>
+              <a href="https://ci.db-git.vnet.sk/sapp/">mattermost</a>
+              <a href="https://docs.google.com/spreadsheets/d/1gcAonCL9vG5s66kCCyuEeHp9qFaFbkmEiQLKMHIbPEE/edit#gid=1368686662">dochadzka</a>
+              <a href="http://localhost:8000/">localhost:8000</a>
+              <a href="http://127.0.0.1:8000/admin/">127.0.0.1:8000/admin</a>
+            </div>
+        </div>
+
+        <div class="topbox">
+          <!-- ~/nerd -->
+          <button class="button" id="nerd_btn"><h3>~/<span class="green">nerd</span></h3></button>
+            <div class="box" id="nerd_box">
+              <a href="https://github.com/">github</a>
+              <a href="http://store.steampowered.com/">steam</a>
+              <a href="https://news.ycombinator.com/">hacker news</a>
+              <a href="https://www.reddit.com/r/unixporn/">/r/unixporn</a>
+              <a href="https://www.keybr.com/practice">keybr</a>		
+              <a href="https://www.typingclub.com/typing-qwerty-en.html">typingclub</a>
+            </div>
+        </div>
+      </div> <!-- end links -->
+
+    </div> <!-- end container -->
+
+    <!-- commands script -->
+    <script type="text/javascript" src="static/search.js"></script>
+    <script type="text/javascript" src="static/actions.js"></script>
+
+  </body>
+
+</html>
