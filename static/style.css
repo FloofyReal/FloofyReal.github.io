@@ -4,6 +4,10 @@
 
 html,
 body,
+h2 {
+  margin: 0;
+  padding: 0;
+}
 h3 {
   margin: 0;
   padding: 0;
@@ -24,6 +28,12 @@ h3 {
   display: inline;
   padding-bottom: 5px;
   font-size: 1em;
+}
+
+h2 {
+  display: inline;
+  padding-bottom: 0px;
+  font-size: 2em;
 }
 
 a, a:visited {
@@ -54,7 +64,7 @@ a:hover { color: #dc322f; }
 
 #container {
   position: absolute;
-  top: 35%;
+  top: 20%;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -84,6 +94,18 @@ a:hover { color: #dc322f; }
   -moz-box-flex: 1;
   margin: 4px;
   padding: 8px;
+  background-color: #073642;
+  border: 2px solid #073642;
+  -webkit-box-shadow: 1px 1px 10px 0px #000;
+     -moz-box-shadow: 1px 1px 10px 0px #000;
+          box-shadow: 1px 1px 10px 0px #000;
+}
+
+.countbox {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  margin: 4px;
+  padding: 0px;
   background-color: #073642;
   border: 2px solid #073642;
   -webkit-box-shadow: 1px 1px 10px 0px #000;
