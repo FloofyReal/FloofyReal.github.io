@@ -16,19 +16,12 @@
   <body>
 
     <div id="container">
-      <div class="box" align="middle" id="countdowns">
+      <div class="countbox" align="middle" id="countdowns">
         <!-- <h2><p>DP2</p></h2> -->
         <h2><p id="dp2"></p></h2>
         <!-- <h2><p>DP3</p></h2> -->
         <h2><p id="dp3"></p></h2>
       </div>
-
-      <div id="searchbox">
-        <!-- klaz@internet ~ $ search -->
-        <h3><span class="green">~</span><span class="blue"> search</span></h3>
-        <!-- search -->
-        <input type="text" id="search" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="autofocus" spellcheck="false" placeholder="" onkeypress="searchKeyPress(event)"></input>
-      </div> <!-- end searchbox -->
 
       <div id="links">
         <div class="topbox">
@@ -56,19 +49,6 @@
             </div>
         </div>
 
-    <!--
-        <div class="topbox">
-          <button class="button" id="nn - dp"><h3>~/<span class="green">work</span></h3></button>
-            <div class="box" id="reddit_box">
-
-              <a href="https://db-git.vnet.sk/db/">gitlab</a>
-              <a href="https://ci.db-git.vnet.sk/sapp/">mattermost</a>
-              <a href="https://docs.google.com/spreadsheets/d/1gcAonCL9vG5s66kCCyuEeHp9qFaFbkmEiQLKMHIbPEE/edit#gid=1368686662">dochadzka</a>
-              <a href="http://localhost:8000/">localhost:8000</a>
-              <a href="http://127.0.0.1:8000/admin/">127.0.0.1:8000/admin</a>
-            </div>
-        </div>
-    -->
         <div class="topbox">
           <!-- ~/nerd -->
           <button class="button" id="nerd_btn"><h3>~/<span class="green">nerd</span></h3></button>
@@ -86,7 +66,6 @@
     </div> <!-- end container -->
 
     <!-- commands script -->
-    <script type="text/javascript" src="static/search.js"></script>
     <script type="text/javascript" src="static/actions.js"></script>
     <script type="text/javascript" src="static/countdown.js"></script>
 
