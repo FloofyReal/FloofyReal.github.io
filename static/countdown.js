@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate1 = new Date("Dec 12, 2017 23:59:59").getTime();
+var countDownDate1 = new Date("Jan 14, 2018 23:59:59").getTime();
 var countDownDate2 = new Date("May 2, 2018 23:59:59").getTime();
 // var countDownDate3 = new Date("Dec 12, 2017 23:59:59").getTime();
 
