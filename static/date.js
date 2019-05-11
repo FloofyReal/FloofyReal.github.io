@@ -48,5 +48,20 @@ if (mins < 10) mins = "0" + mins;
 if (secs < 10) secs = "0" + secs;
 
 // print
-var announceDate =  "Today is " + weekday + ", " + month + " " + day + ", " + year + ". <br/> Current time is " + hours + ":" + mins + ":" + secs + ".";
-document.getElementById("date").innerHTML = announceDate.toString();
+//var announceDate =  "Today is " + weekday + ", " + month + " " + day + ", " + year + ". <br/> Current time is " + hours + ":" + mins + ":" + secs + ".";
+// document.getElementById("date").innerHTML = announceDate.toString();
+// document.getElementById("time").innerHTML = currentDate.toLocaleTimeString();
+
+(function () {
+
+  var clockElement = document.getElementById( "clock" );
+
+  function updateClock ( clock ) {
+    document.getElementById("clock").innerHTML = new Date().toLocaleTimeString();
+  }
+
+  setInterval(function () {
+      updateClock( clockElement );
+  }, 1000);
+
+}());
