@@ -20,10 +20,10 @@ h3 {
 body {
   /* background-color: #002b36; */
   /* color: #657b83; */
-  background-color: black;
+  background-color: #27292b;
   color: gray;
   font-family: "Inconsolata", monospace;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: bold;
   text-align: center;
 }
@@ -31,28 +31,29 @@ body {
 h3 {
   display: inline;
   padding-bottom: 5px;
-  font-size: 1em;
-}
-
-h2 {
-  display: inline;
-  padding-bottom: 0px;
   font-size: 2em;
 }
 
+h2 {
+  color: white;
+  display: inline;
+  padding-bottom: 0px;
+  font-size: 3em;
+}
+
 a, a:visited {
-  display: block;
+  /* display: block; */
   padding-top: 2px;
-  color: gray;
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
-a:hover { color: cyan; }
+a:hover { color: #6c71c4; }
 
 .btn-block {
   background-color: gray;
-  border: black;
-  color: black;
+  border: #27292b;
+  color: #27292b;
   text-decoration: none;
 }
 .btn-block:hover {
@@ -64,7 +65,7 @@ a:hover { color: cyan; }
   -moz-box-flex: 1;
   margin: 4px;
   padding: 8px;
-  background-color: black;
+  background-color: #27292b;
 }
 
 .centered {
@@ -96,7 +97,7 @@ a:hover { color: cyan; }
   right: 0;
   margin: 0 auto;
   padding: 0 20px;
-  width: 750px;
+  width: 950px;
   height: auto;
 }
 
