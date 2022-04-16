@@ -23,7 +23,7 @@ body {
   background-color: black;
   color: gray;
   font-family: "Inconsolata", monospace;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
 }
@@ -43,7 +43,7 @@ h2 {
 a, a:visited {
   display: block;
   padding-top: 2px;
-  color: black;
+  color: gray;
   font-weight: bold;
   text-decoration: none;
 }
